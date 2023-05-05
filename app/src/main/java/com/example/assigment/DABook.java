@@ -23,10 +23,17 @@ public class DABook implements AnyThing {
         return arr;
     }
 
-    public  String []findName(){
-        String [] a={"Math","Chemestry","Science" };
-        return a;
-
-
+    @Override
+    public String[] FindName() {
+        String [] array={"Math","Science"};
+        return  array;
     }
+
+    @Override
+    public String[] Oparitions() {
+        String [] array={"*","-","+","/"};
+        return array;
+    }
+
+
 }
