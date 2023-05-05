@@ -106,13 +106,16 @@
 
             <TextView
                 android:id="@+id/labelTextView"
+
                 android:layout_width="wrap_content"
+                android:background="#FFFF00"
                 android:layout_height="wrap_content"
                 android:text="Enter first number" />
 
             <EditText
                 android:id="@+id/firstNUmber"
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
+                android:padding="10dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                  />
@@ -124,6 +127,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -135,12 +139,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#FFFF00"
                 android:layout_margin="10dp"
                 android:text="Enter Secound number" />
 
             <EditText
                 android:id="@+id/SeocundNumber"
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
+                android:padding="10dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp" />
 
@@ -163,14 +169,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#FFFF00"
                 android:text="Enter one of these opariton"
                 android:layout_margin="10dp"
                 />
 
 
             <Spinner
-                android:layout_width="71dp"
-                android:layout_height="1dp"
+                android:layout_width="70dp"
+                android:layout_height="10dp"
                 android:layout_margin="10dp"
                 android:id="@+id/SpinnerOperation"
                 android:entries="@array/Oparition"
@@ -196,12 +203,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:layout_margin="10dp"
                 android:text="Enter Your answer " />
 
             <EditText
                 android:id="@+id/Answer"
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
+
+                android:padding="10dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp" />
 
